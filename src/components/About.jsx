@@ -135,7 +135,7 @@ export default function About() {
                 </div>
 
                 <div className="exp-item">
-                  <img src={InternImg} alt="Marketing Intern" />
+                  <img src={internImg} alt="Marketing Intern" />
                   <div>
                     <h4>Marketing Intern </h4>
                     <p>Designed content, managed social media, and supported event coordination.</p>
