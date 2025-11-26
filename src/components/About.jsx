@@ -6,10 +6,10 @@ export default function About() {
   return (
     <section className="about">
       <div className="about-wrapper">
-
+         
         {/* LEFT IMAGE SECTION */}
         <div className="about-photo">
-         
+         <img src="/src/assets/profile.jpg" alt="Amy Sauden" />
         </div>
 
         {/* RIGHT CONTENT */}
