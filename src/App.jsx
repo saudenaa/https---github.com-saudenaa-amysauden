@@ -102,7 +102,7 @@ export default function App() {
           <div className="projects-row">
             {projects.map((p) => (
               <div key={p.id} className="project-card-glass">
-                <img src={p.image} alt={p.title} className="project-img" />
+              
 
                 <h3 className="project-name">{p.title}</h3>
                 <p className="project-desc">{p.blurb}</p>
