@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 
+// Import Images properly for vite + Github
+import profile from "../assets/profile.jpg";
+import nasaImg from "../assets/nasaobservatory.jpg";
+import cechImg from "../assets/cech.jpg";
+import adaaptImg from "../assets/adaapt.jpg";
+import internImg from "../assets/intern.jpg";
+import ucImg from "../assets/uc.png";
+import uniglobeImg from "../assets/uniglobe.jpg";
+
 export default function About() {
   const [active, setActive] = useState("skills");
 
@@ -9,7 +18,7 @@ export default function About() {
          
         {/* LEFT IMAGE SECTION */}
         <div className="about-photo">
-         <img src="/src/assets/profile.jpg" alt="Amy Sauden" />
+         <img src={profile} alt="Amy Sauden" />
         </div>
 
         {/* RIGHT CONTENT */}
@@ -102,7 +111,7 @@ export default function About() {
               <div className="exp-list">
 
                 <div className="exp-item">
-                  <img src="/src/assets/nasaobservatory.jpg" alt="NASA Space Apps" />
+                  <img src={nasaImg} alt="NASA Space Apps" />
                   <div>
                     <h4>NASA International Space Apps | Cincinnati — Local Lead</h4>
                     <p>Managed mentorship, event operations, logistics, storytelling, and community engagement.</p>
@@ -110,7 +119,7 @@ export default function About() {
                 </div>
 
                 <div className="exp-item">
-                  <img src="/src/assets/cech.jpg" alt="CECH Analytics" />
+                  <img src={cechImg} alt="CECH Analytics" />
                   <div>
                     <h4>Marketing Analyst — CECH, University of Cincinnati</h4>
                     <p>Built dashboards, analysed trends, and supported social media insights.</p>
@@ -118,7 +127,7 @@ export default function About() {
                 </div>
 
                 <div className="exp-item">
-                  <img src="/src/assets/adaapt.jpg" alt="ADAAPT Studio" />
+                  <img src={adaaptImg} alt="ADAAPT Studio" />
                   <div>
                     <h4>ADAAPT Studio — Creative and Operational Support</h4>
                     <p>Helped student entrepreneurs with branding, visuals, and product design.</p>
@@ -126,7 +135,7 @@ export default function About() {
                 </div>
 
                 <div className="exp-item">
-                  <img src="/src/assets/intern.jpg" alt="Marketing Intern" />
+                  <img src={InternImg} alt="Marketing Intern" />
                   <div>
                     <h4>Marketing Intern </h4>
                     <p>Designed content, managed social media, and supported event coordination.</p>
@@ -141,7 +150,7 @@ export default function About() {
               <div className="edu-list">
 
                 <div className="edu-item">
-                  <img src="/src/assets/uc.png" alt="University of Cincinnati" />
+                  <img src={ucImg} alt="University of Cincinnati" />
                   <div>
                     <h4>University of Cincinnati</h4>
                     <p>2024–2029</p>
@@ -150,7 +159,7 @@ export default function About() {
                 </div>
 
                 <div className="edu-item">
-                  <img src="/src/assets/uniglobe.jpg" alt="Uniglobe Secondary School" />
+                  <img src={uniglobeImg} alt="Uniglobe Secondary School" />
                   <div>
                     <h4>Uniglobe Secondary School</h4>
                     <p>Business Management & Economics</p>
