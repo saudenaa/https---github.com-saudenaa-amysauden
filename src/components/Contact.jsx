@@ -18,7 +18,7 @@ export default function Contact({ formRef, sendEmail, sending, sent }) {
             <span>saudenaa@mail.uc.edu</span>
           </a>
 
-          <a href="https://www.linkedin.com/in/amishasauden/" target="_blank" className="contact-link">
+          <a href="https://www.linkedin.com/in/amysauden/" target="_blank" className="contact-link">
             <i className="fa-brands fa-linkedin"></i>
             <span>LinkedIn</span>
           </a>
