@@ -18,7 +18,7 @@ export default function Hero({ onJump }) {
         {/* SOCIAL ICONS (now inside hero-left) */}
         <div className="hero-social">
           <a
-            href="https://www.linkedin.com/in/amishasauden/"
+            href="https://www.linkedin.com/in/amysauden/"
             target="_blank"
             rel="noreferrer"
             className="social-icon linkedin"
