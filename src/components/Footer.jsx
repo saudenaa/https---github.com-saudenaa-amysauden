@@ -22,7 +22,7 @@ export default function Footer() {
 
           <div className="footer-icons">
             <a href="mailto:saudenaa@mail.uc.edu"><FaEnvelope /></a>
-            <a href="https://www.linkedin.com/in/amishasauden" target="_blank"><FaLinkedin /></a>
+            <a href="https://www.linkedin.com/in/amysauden" target="_blank"><FaLinkedin /></a>
             <a href="https://github.com/saudenaa" target="_blank"><FaGithub /></a>
             <a href="tel:5133072996"><FaPhone /></a>
           </div>
